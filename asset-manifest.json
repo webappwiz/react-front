@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/react-front/static/css/main.b884b093.css",
+    "main.js": "/react-front/static/js/main.45e62807.js",
+    "static/js/453.d836d45b.chunk.js": "/react-front/static/js/453.d836d45b.chunk.js",
+    "static/media/wabappwiz1.png": "/react-front/static/media/wabappwiz1.ca7658ee8cbd80e26de3.png",
+    "static/media/clock.png": "/react-front/static/media/clock.0847796ba61d96b5422c.png",
+    "static/media/call.png": "/react-front/static/media/call.950ab879f574e5f9bcfb.png",
+    "static/media/wha.png": "/react-front/static/media/wha.a2614678c39b753e8523.png",
+    "static/media/hirea.jpg": "/react-front/static/media/hirea.1902f7dc281d3a24e040.jpg",
+    "static/media/ig.png": "/react-front/static/media/ig.591a89c3a5ebe30ee964.png",
+    "static/media/telgra.png": "/react-front/static/media/telgra.4e5f32f699cc1c3704aa.png",
+    "static/media/wiz-logo-removebg-preview.png": "/react-front/static/media/wiz-logo-removebg-preview.6d9c314defd3fd0330fa.png",
+    "static/media/pic1.jpg": "/react-front/static/media/pic1.3bb6e8efe65c925edf0d.jpg",
+    "static/media/pic2.jpg": "/react-front/static/media/pic2.ab85abd5e50190c28f78.jpg",
+    "static/media/cha.png": "/react-front/static/media/cha.2edf4558df6b0b8de9de.png",
+    "static/media/pic4.jpg": "/react-front/static/media/pic4.f5558fd9e0d589c1e8f4.jpg",
+    "static/media/Ximg.png": "/react-front/static/media/Ximg.aeaa4c62ead4c236c721.png",
+    "static/media/pic3.jpg": "/react-front/static/media/pic3.2f20af53abba2c0d08f6.jpg",
+    "static/media/emailer.png": "/react-front/static/media/emailer.70cf3450f8c78dfe80f4.png",
+    "static/media/location.png": "/react-front/static/media/location.7f693b9f74e309a2b8dc.png",
+    "static/media/slick.svg": "/react-front/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/react-front/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/react-front/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/react-front/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/react-front/index.html",
+    "main.b884b093.css.map": "/react-front/static/css/main.b884b093.css.map",
+    "main.45e62807.js.map": "/react-front/static/js/main.45e62807.js.map",
+    "453.d836d45b.chunk.js.map": "/react-front/static/js/453.d836d45b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b884b093.css",
+    "static/js/main.45e62807.js"
+  ]
+}
