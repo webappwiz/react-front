@@ -1,0 +1,497 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* About Section */
+.about {
+  background-color: black;
+  width: 100%;
+  height: auto;
+}
+
+.major {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 40px;
+  padding: 20px;
+}
+
+.aboutpic {
+  width: 30%;
+  margin-left: 10%;
+}
+
+.mypicture {
+  width: 200px;
+  height: 300px;
+  margin-left: 50%;
+  opacity: 65%;
+}
+
+.meintro {
+  width: 45%;
+  margin-left: 15%;
+  margin-top: 2%;
+}
+.meintro hr {
+  border: none;
+}
+
+.meintro h2 {
+  font-size: 24px;
+  color: white;
+}
+
+.meintro h6 {
+  font-size: 18px;
+  color: white;
+  margin-top: 10px;
+}
+
+.meintro p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: white;
+  margin-top: 20px;
+}
+
+ .more {
+  font-size: 12px;
+  color: white;
+  display: none;
+}
+
+.contactus {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 100px;
+  height: 30px;
+  border-radius: 20px;
+  color: black;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-left: 0;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.contactus:hover {
+  background-color: #b30000;
+  transform: translateY(-3px);
+  
+}
+
+.contactus a {
+  color: black;
+  text-decoration: none;
+}
+
+/* Skills Section */
+
+
+
+
+/* General Styling */
+.ratemajor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+
+}
+
+/* Skills Section */
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  
+  width: 20%;
+  margin-left: 0;
+  justify-content: center;
+
+}
+
+.skill {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+ width: 100%;
+}
+
+.skill-label {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.skill-label p {
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+}
+
+.skill-bar {
+  width: 100%;
+  height: 10px;
+  background-color: lightgray;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.skill-progress {
+  height: 100%;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 10px 0 0 10px;
+  transition: width 0.5s ease-in-out;
+}
+
+/* Mark Section */
+.mark {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  width: 30%;
+ 
+}
+
+.mark-item {
+  text-align: center;
+
+}
+
+.mark-item h1 {
+  font-size: 36px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.mark-item p {
+  font-size: 14px;
+  color: white;
+}
+
+.last{
+  width: 100%;
+  height: 200px;
+  margin-top: 10px;
+  background-image: url(../assets/hirea.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 60%;
+}
+
+
+
+/* Media Queries */
+
+/* Medium Screens (Tablets) */
+@media (max-width: 768px) {
+  .about{
+    width: 100%;
+    height: 100vh;
+
+   }
+
+   .major {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 10;
+    padding: 0;
+  }
+  
+  .aboutpic {
+    width: 30%;
+    margin-left: 0;
+  }
+  
+  .mypicture {
+    width: 100px;
+    height: 200px;
+    margin-left: 5%;
+    opacity: 65%;
+  }
+  
+  .meintro {
+    width: 45%;
+    margin-left: 50px;
+    margin-top: 2%;
+  }
+
+  .meintro p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: white;
+    margin-top: 20px;
+    display: none;
+  }
+  
+   .more {
+    font-size: 10px;
+    color: white;
+   display: flex;
+   flex-direction: column;
+   margin-top: 10px;
+  }
+
+  
+.meintro h2 {
+  font-size: 18px;
+  color: white;
+  margin: 10px 0;
+}
+
+.meintro h6 {
+  font-size: 15px;
+  color: white;
+  margin-top: 10px;
+}
+
+.contactus {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 90px;
+  height: 20px;
+  border-radius: 20px;
+  color: black;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-left: 0;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+ 
+  .ratemajor {
+    flex-direction: row;
+    align-items: normal;
+    justify-content: left;
+    gap: 20px;
+   margin: 30px 0;
+   width: 100%;
+  
+  }
+
+  .skills-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 40%;
+    margin-left: 0;
+  
+  }
+
+  .skill {
+    width: 100%;
+    margin-left: 0;
+   
+  }
+
+  .skill-label p {
+    font-size: 10px;
+  }
+
+  .skill-bar {
+    height: 3px;
+    width: 100%;
+  }
+
+  .mark {
+    align-items: flex-start;
+    margin-left: 70px;
+
+  }
+
+  
+.mark-item {
+  text-align: center;
+   margin-left: 20px;
+}
+
+.mark-item h1 {
+  font-size: 20px;
+  color: white;
+  margin-bottom: 7px;
+}
+
+.mark-item p {
+  font-size: 10px;
+  color: white;
+}
+
+
+.last{
+  width: 100%;
+  height: 110px;
+  margin-top:0px;
+  background-image: url(../assets/hirea.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 60%;
+}
+
+}
+
+/* Small Screens (Mobile Phones) */
+@media (max-width: 480px) {
+   .about{
+    width: 100%;
+    height: 100vh;
+
+   }
+
+   .major {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 10;
+    padding: 0;
+  }
+  
+  .aboutpic {
+    width: 30%;
+    margin-left: 0;
+  }
+  
+  .mypicture {
+    width: 100px;
+    height: 200px;
+    margin-left: 5%;
+    opacity: 65%;
+  }
+  
+  .meintro {
+    width: 45%;
+    margin-left: 0;
+    margin-top: 2%;
+  }
+
+  .meintro p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: white;
+    margin-top: 20px;
+    display: none;
+  }
+  
+   .more {
+    font-size: 10px;
+    color: white;
+   display: flex;
+   flex-direction: column;
+   margin-top: 10px;
+  }
+
+  
+.meintro h2 {
+  font-size: 18px;
+  color: white;
+  margin: 10px 0;
+}
+
+.meintro h6 {
+  font-size: 15px;
+  color: white;
+  margin-top: 10px;
+}
+
+.contactus {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 90px;
+  height: 20px;
+  border-radius: 20px;
+  color: black;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-left: 0;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+ 
+  .ratemajor {
+    flex-direction: row;
+    align-items: normal;
+    justify-content: left;
+    gap: 20px;
+   margin: 30px 0;
+   width: 100%;
+  
+  }
+
+  .skills-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 40%;
+    margin-left: 0;
+  
+  }
+
+  .skill {
+    width: 100%;
+    margin-left: 0;
+   
+  }
+
+  .skill-label p {
+    font-size: 10px;
+  }
+
+  .skill-bar {
+    height: 3px;
+    width: 100%;
+  }
+
+  .mark {
+    align-items: flex-start;
+    margin-left: 30px;
+  }
+
+  
+.mark-item {
+  text-align: center;
+   margin-left: 20px;
+}
+
+.mark-item h1 {
+  font-size: 20px;
+  color: white;
+  margin-bottom: 7px;
+}
+
+.mark-item p {
+  font-size: 10px;
+  color: white;
+}
+
+
+.last{
+  width: 100%;
+  height: 110px;
+  margin-top:0px;
+  background-image: url(../assets/hirea.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 60%;
+}
+}

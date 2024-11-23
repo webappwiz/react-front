@@ -1,0 +1,494 @@
+Basic Reset
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+.home-container {
+  width: 100%;
+  text-align: center;
+  background-color: black;
+
+}
+
+.homedead {
+  width: 100%;
+  height: 50px;
+  background-color: goldenrod;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: #333;
+}
+
+/* Navigation */
+.home-nav {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.home-menu {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  z-index: 10;
+}
+
+.home-menu li {
+  position: relative;
+  padding: 10px 30px;
+  background-color: goldenrod;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 14px;
+}
+
+.home-menu li:hover {
+  background-color: #daa520;
+}
+
+/* Dropdown Menu */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #f1f1f1;
+  list-style: none;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-menu li {
+  padding: 8px 12px;
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dropdown-menu li:hover {
+  background-color: #ddd;
+}
+
+/* Show Dropdown on Hover */
+.dropdown:hover .dropdown-menu {
+  display: block;
+  opacity: 1;
+  transform: translateY(0);
+  transition: all 0.3s ease-in-out;
+}
+
+/* Carousel Styles */
+.carousel-container {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.carousel-image {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+}
+
+.slick-dots {
+  bottom: 5px;
+}
+
+.slick-dots li button:before {
+  font-size: 12px;
+  color: #007BFF;
+  
+}
+
+.slick-dots li.slick-active button:before {
+  color: #0056b3;
+}
+
+/* Intro Section */
+.intro-container {
+  display: flex;
+  flex-direction: row;
+  opacity: 82%;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 50px;
+  padding: 50px 20px;
+}
+
+.textspan {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin-top: 120px;
+}
+
+.textspan h6 {
+  color: white;
+  font-size: 30px;
+  margin: 0;
+  text-align: left;
+}
+
+.textspan p {
+  color: white;
+  font-size: 20px;
+  text-align: left;
+  line-height: 2;
+  padding-left: 10%;
+}
+
+.introp {
+  text-align: left;
+  font-size: 4rem;
+  font-weight: 900;
+  padding-left: 10%;
+}
+
+.myimg {
+  width: 300px;
+  height: auto;
+  opacity: 60%;
+}
+
+.contactme {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 25%;
+  margin-left: 10%;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+
+}
+
+.contactme:hover {
+  background-color: #b30000;
+  transform: translateY(-3px);
+}
+
+li {
+  text-decoration: none;
+  list-style: none;
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+/* Services Section */
+.services-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #f4f4f4;
+}
+
+.services-container h2 {
+  color: #333;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.services-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.service-card {
+  background-color: goldenrod;
+  color: white;
+  padding: 20px;
+  width: 230px;
+  height: 150px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.service-card:hover {
+  transform: scale(1.05);
+  background-color: #daa520;
+}
+
+/* Testimonials Section */
+.testimonials-container {
+  padding: 50px 20px;
+  background-color: white;
+  text-align: center;
+}
+
+.testimonials-container h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial p {
+  color: #555;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .home-menu {
+    flex-direction: row;
+    gap: 15px;
+  }
+
+  .home-menu li {
+    font-size: 12px;
+    padding: 8px 20px;
+  }
+
+  .carousel-image {
+    height: 300px;
+  }
+
+  .services-grid {
+    flex-direction: column;
+  }
+
+  .service-card {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+
+  .textspan {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    margin-top: 20px;
+  
+  }
+  
+
+  .intro-container {
+    display: flex;
+    flex-direction: row;
+    opacity: 82%;
+    width: 100%;
+    justify-content: center;
+    margin-bottom:0;
+    padding: 0;
+  }
+  
+  
+  .textspan h6 {
+    color: white;
+    font-size: 20px;
+    margin: 0;
+    text-align: left;
+  }
+  
+  .textspan p {
+    color: white;
+    font-size: 14px;
+    text-align: left;
+    line-height: 2;
+    padding-left: 0;
+  }
+  .introp {
+    text-align: left;
+    font-size: 20px;
+    font-weight: 900;
+    padding-left: 0;
+  }
+  
+  .myimg {
+    width: 110px;
+    height: 200px;
+    opacity: 60%;
+  }
+
+  .contactme {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    width: 100px;
+    height: 35px;
+    border-radius: 20px;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 20%;
+    margin-left: 0;
+    transition: background-color 0.3s ease, transform 0.3s ease;}
+
+    .service-card {
+      background-color: goldenrod;
+      color: white;
+      padding: 20px;
+      width: 300px;
+      height: 150px;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, background-color 0.3s ease;
+    }
+    
+  
+.services-container h2 {
+  color: #333;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+  
+}
+
+@media (max-width: 480px) {
+  .home-menu {
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .home-menu li {
+    font-size: 10px;
+    padding: 5px 15px;
+  }
+
+  .carousel-image {
+    height: 200px;
+  }
+
+  .services-container h2,
+  .testimonials-container h2 {
+    font-size: 1.5rem;
+  }
+
+  .service-card {
+    padding: 15px;
+    font-size: 0.9rem;
+    
+  }
+
+  .testimonial {
+    padding: 15px;
+  }
+
+  .intro-container {
+    display: flex;
+    flex-direction: row;
+    opacity: 82%;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 0;
+    padding: 0;
+  }
+  
+  .textspan {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    margin-top: 20px;
+  
+  }
+  
+  .textspan h6 {
+    color: white;
+    font-size: 20px;
+    margin: 0;
+    text-align: left;
+  }
+  
+  .textspan p {
+    color: white;
+    font-size: 14px;
+    text-align: left;
+    line-height: 2;
+    padding-left: 0;
+  }
+  .introp {
+    text-align: left;
+    font-size: 20px;
+    font-weight: 900;
+    padding-left: 0;
+  }
+  
+  .myimg {
+    width: 110px;
+    height: 200px;
+    opacity: 60%;
+  }
+  
+  .contactme {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 30%;
+    margin-left: 0;
+    transition: background-color 0.3s ease, transform 0.3s ease;}
+  
+    .service-card {
+      background-color: goldenrod;
+      color: white;
+      padding: 20px;
+      width:280px;
+      height: 150px;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, background-color 0.3s ease;
+    }
+
+    
+.services-container h2 {
+  color: #333;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+    
+}
