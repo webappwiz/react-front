@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-front/static/css/main.b884b093.css",
-    "main.js": "/react-front/static/js/main.f820eab9.js",
+    "main.css": "/react-front/static/css/main.1b44a64f.css",
+    "main.js": "/react-front/static/js/main.e8eaa744.js",
     "static/js/453.d836d45b.chunk.js": "/react-front/static/js/453.d836d45b.chunk.js",
     "static/media/wabappwiz1.png": "/react-front/static/media/wabappwiz1.ca7658ee8cbd80e26de3.png",
     "static/media/clock.png": "/react-front/static/media/clock.0847796ba61d96b5422c.png",
@@ -24,12 +24,12 @@
     "static/media/slick.ttf": "/react-front/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/react-front/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/react-front/index.html",
-    "main.b884b093.css.map": "/react-front/static/css/main.b884b093.css.map",
-    "main.f820eab9.js.map": "/react-front/static/js/main.f820eab9.js.map",
+    "main.1b44a64f.css.map": "/react-front/static/css/main.1b44a64f.css.map",
+    "main.e8eaa744.js.map": "/react-front/static/js/main.e8eaa744.js.map",
     "453.d836d45b.chunk.js.map": "/react-front/static/js/453.d836d45b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b884b093.css",
-    "static/js/main.f820eab9.js"
+    "static/css/main.1b44a64f.css",
+    "static/js/main.e8eaa744.js"
   ]
 }
